@@ -1,0 +1,9 @@
+# from repo root: linux-assignment2-groupX/
+mkdir -p docs home/user1/{documents,downloads,pictures,projects} var/tmp
+mkdir -p home/user1/projects/assignment2/{scripts,reports}
+touch docs/.gitkeep var/tmp/.gitkeep home/user1/projects/.gitkeep
+
+# seed starter files for Part C
+echo "hello from notes" > home/user1/documents/notes.txt
+echo "installing stuff..." > home/user1/downloads/setup.log
+echo "fake png placeholder" > home/user1/pictures/profile.png
